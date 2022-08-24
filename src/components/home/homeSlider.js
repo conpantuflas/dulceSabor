@@ -67,8 +67,8 @@ const HomeSlider = () => {
                 color="#4e2004"
                 top="20%"
               >
-                Ven a probar nuestaras delicias de dulce sabor, todo elaborado
-                con dedicacion y cariño al arte de cocinar
+                Ven a probar nuestras delicias de dulce sabor, todo elaborado
+                con dedicacion y cariño al arte de cocinar.
               </Pragraph>
               <Link to="/allproducts">
                 <Click
