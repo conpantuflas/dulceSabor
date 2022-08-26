@@ -77,7 +77,6 @@ const ContentProduct = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  /* background: rgb(255, 255, 255); */
   background: linear-gradient(
     141deg,
     rgba(255, 255, 255, 1) 0%,
