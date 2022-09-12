@@ -54,27 +54,27 @@ const Highlights = () => {
         {/* slideshow */}
         <ContenedorSlideShow ref={slideshow}>
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
 
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
 
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
 
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
 
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
 
           <Slide>
-            <CardHighlights />
+            <CardHighlights top={"16rem"} />
           </Slide>
         </ContenedorSlideShow>
 
@@ -112,8 +112,8 @@ const ContenedorSlideShow = styled.div`
   display: flex;
   flex-wrap: nowrap;
   margin: 0 auto;
-  height: 30rem;
-  width: 85%;
+  height: 35rem;
+  width: 75%;
   align-items: center;
   overflow: hidden;
 `;
@@ -122,14 +122,16 @@ const Slide = styled.div`
   width: 15rem;
   transition: 0.3s ease all;
   z-index: 9;
-  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
   img {
-    width: 10rem;
+    width: 13rem;
     height: 20rem;
     object-fit: cover;
   }
   &:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
   }
 `;
 
@@ -162,7 +164,7 @@ const Boton = styled.button`
         ? "drop-shadow(2px 0px 0px #fff)"
         : "drop-shadow(-2px 0px 0px #fff)"};
   }
-  ${(props) => (props.izquierdo ? "right:570px" : "left:610px")}
+  ${(props) => (props.izquierdo ? "right:570px" : "left:570px")}
 `;
 
 export default Highlights;
